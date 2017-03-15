@@ -1,9 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 body {
 
     font-family: 'Proxima', sans-serif;
     font-size: 16px;
     position: relative;
-top:0px;
+    margin-top: -35px;
+    background: #f8f8f8;
 }
 html, body {
     overflow-x: hidden;
@@ -11,6 +17,22 @@ html, body {
 }
 section{
 
+}
+hr{
+    border-color: #e0e0e0;
+    margin: 0 auto 20px auto;
+    width: 100px !important;
+}
+a{
+    display: block;/* властивість блоку*/
+    text-decoration:none;/*прибрати декорацію якорів*/
+    text-align:center;
+
+}
+a{
+
+    color: #606060;
+    font-family: 'Proxima', sans-serif;
 }
 /*-----------Header--------*/
 
@@ -26,6 +48,9 @@ section{
 
 }
 .headerName{
+position: relative;
+    top:30%;
+    margin: 3%;
 
 }
 
@@ -42,10 +67,183 @@ section{
 .navigationBar{
     position: relative;
     top:1%;
-
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%;
+    height: 70vh;
 }
+.navBarHeader{
+    position: relative;
+    display: inline-block;
+}
+
+.navBarRight{
+position: relative;
+    float: right;
+    margin-top: 3%;
+}
+
+
+.navBarRight a{
+    display: block;/* властивість блоку*/
+    width:100px;
+    padding:10px 0px;
+    text-decoration:none;/*прибрати декорацію якорів*/
+    text-align:center;
+    margin-bottom:3px;
+
+
+}
+a.logoType{
+    float: left;
+    position: relative;
+
+}
+
+ul.navBarRight{
+    list-style:none;/* забирає маркування*/
+    width: fit-content;/*ширина рівняється по розміру контенту*/
+}
+
+
+.navBarRight>li{
+    display:inline-block;
+}
+
+.aboutText{
+    position: relative;
+    clear: both;
+}
+
+/*<========INTRO+===========>*/
+.aboutText{
+    position: relative;
+    top:4%;
+    align-content: center;
+}
+.titleIntro{
+ font-size: inherit;
+    margin-bottom: 1%;
+}
+.nameOfIntroCompany{
+    margin-bottom: 1%;
+}
+
+.descriptionIntro{
+    position: relative;
+   width: 50%;
+    left: 25%;
+}
+
+/*<!-- work section -->*/
+
+#work{
+    height:55vh;
+}
+
+.serviceDescription{
+    position: relative;
+    float: left;
+    width:33%;
+
+}
+.fotoServiceMain{
+    float: left;
+    width:67%;
+
+}
+.fotoService{
+
+    margin-left: 16.5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid gray;
+    float: left;
+    text-align: center;
+
+}
+.contentOfWork{
+    position: relative;
+    margin: auto;
+    top: 35%;
+}
+
+#team{
+    height: 80vh;
+}
+
+.imgTeam{
+    position: relative;
+    margin: auto;
+    text-align: center;
+
+
+
+}
+.teamDescription{
+
+    margin-right: 2%;
+    position: relative;
+    left: 20%;
+    float: left;
+    width: 252px;
+    height:auto;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+.imgRadius{
+
+    border-radius: 20px;
+}
+
+/*<!-- portfolio section -->*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
