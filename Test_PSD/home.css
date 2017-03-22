@@ -1,0 +1,159 @@
+body {
+
+}
+
+/*------------------HEADER---------------*/
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: auto;
+
+}
+
+.bg1 {
+    display: flex;
+    width: 1267px;
+    height: 115px;
+    justify-content: flex-end;
+
+    background-image: url(images/header/bgd.png);
+}
+
+.infoHeader {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.iconBg {
+    width: 37px;
+    height: 37px;
+    margin-left: 10px;
+    background-image: url(images/header/fonIcon.png);
+}
+
+.iconPhone {
+    height: 13px;
+    width: 13px;
+    margin: auto;
+    margin-top: 12px;
+    background-image: url(images/header/icon_phone.png);
+
+}
+
+.iconLocation {
+    width: 10px;
+    height: 15px;
+    margin: auto;
+    margin-top: 12px;
+    background-image: url(images/header/iconLocation.png);
+}
+
+.telephone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 152px;
+    height: 31px;
+    margin-left: 10px;
+    background-image: url(images/header/telephoneText.png);
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 239px;
+    height: 32px;
+    margin-left: 10px;
+    background-image: url(images/header/location.png);
+}
+
+/*.languageIcon{
+    width: 149px;
+    height: 13px;
+    background-image: url(images/header/language.png);
+}*/
+
+
+
+.bg2 {
+    display: flex;
+    width: 642px;
+    height: 115px;
+    background-image: url(images/header/bgd2.png);
+}
+
+.language{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.iconBg2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #009bdf;
+    border-radius:  100px 100px 100px 100px;
+    background-image: url(images/header/bgd2.png);
+}
+.lang1{
+    display: flex;
+    height:15px;
+    width: 15px;
+    color:white;
+    align-items: center;
+    justify-content: center;
+  padding-left: 5px;
+}
+
+
+/*=======================MENU======================*/
+
+
+.menu{
+    margin: 0;
+    height:70px;
+    display: flex;
+    justify-content: center;
+
+}
+ul.menuItem>li{
+display: inline-block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
