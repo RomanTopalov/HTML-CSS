@@ -7,7 +7,7 @@ body {
     float: left;
     height: 1000px;
     width: 420px;
-    background: violet;
+    background: white;
 }
 /*======
 menu
@@ -19,7 +19,7 @@ img.logo{
 
 
     margin-top: 20px;
-    padding-left: 60px;
+    padding-left: 83px;
 
 
 
@@ -214,23 +214,35 @@ ul.sidebar-images-ul-contact-icons {
 
 
 
-/*-------------------------------------*/
 
-.footer-form-for-inputs{
-
-    background: greenyellow;
-    width: 100%;
-    height: 100px;
-}
 
 /*-------------------------------------*/
 
-.backgroung-maps {
+.backgroung-maps iframe {
+float: left;
+    height:800px;
+    width:1500px;
 
-    width: 100%;
-    height: 900px;
     /*  background-image: url("images/mapsScreen.png");*/
-    background: yellow;
+
+}
+@media screen and (max-width: 620px){
+    .backgroung-maps iframe{
+        width: 60%;
+        height:800px;
+    }
+}
+@media screen and (max-width: 420px){
+    .backgroung-maps iframe{
+        width: 30%;
+        height:800px;
+    }
+}
+@media screen and (max-width: 220px){
+    .backgroung-maps iframe{
+        width: 20%;
+        height:800px;
+    }
 }
 
 /*------------- контактна форма ---------------------*/
@@ -238,7 +250,7 @@ ul.sidebar-images-ul-contact-icons {
 .contact-form {
     position: absolute;
     top: 10%;
-    left: 50%;
+    left: 600px;
     border: 1px solid #737272;
     width: 486px;
     height: 550px;
@@ -246,6 +258,7 @@ ul.sidebar-images-ul-contact-icons {
 }
 
 .info-contact {
+    padding-left: 0px;
 }
 
 .title-contact {
@@ -257,7 +270,7 @@ ul.sidebar-images-ul-contact-icons {
 .contact-menu a {
     display: block; /* властивість блоку*/
     height: auto;
-    width: 70px;
+
 
     text-decoration: none; /*прибрати декорацію якорів*/
     text-align: left;
@@ -325,19 +338,110 @@ ul.images-ul-contact-icons {
 }
 
 
+/*-------------------------------------*/
 
+.footer-form-for-inputs{
+
+    background: greenyellow;
+    width:1500px;
+
+}
 /*================= form input =========*/
-.form-text{
-    position: relative;
 
-    width: 20%;
-height: auto;
-    background: red;
-    left: 420px;
+.input-body-form{
+    position: relative;
+    width: auto;
+    height:10px;
 }
 
 
 
+
+
+/*====form1===*/
+.form1{
+    background-color: #029ADA;
+
+}
+.form-group{
+
+}
+
+div.row.content.form1{
+    margin-left:380px;
+
+    width: 1510px;
+
+
+
+
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    padding-left: 25px;
+
+}
+.form-group.text{
+    font-size: 30px;
+    color: white;
+}
+
+input#email.form-control{
+    width: 150px;
+
+    margin: 0px;
+}
+
+input#pwd.form-control{
+    width: 150px;
+
+    margin: 0px;
+}
+.form1{
+    background-color: #029ADA;
+}
+
+form.checkbox{
+    position: relative;
+    left: 27.5%;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+
+input[type=password]{
+    border-radius: 0px;
+    margin-right: 27px;
+    margin-left: 27px;
+    margin-bottom: 0px;
+    width: 300px;
+    height: 45px;
+    border: none;
+}
+
+
+input[type=email]{
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 0px;
+    width: 250px;
+    margin-right: 27px;
+    margin-left: 27px;
+    height: 45px;
+}
+
+button[type=submit]{
+    border-radius: 0px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+
+    margin-left: 30px;
+    font-size: 24px;
+    height: 45px;
+}
 
 
 
