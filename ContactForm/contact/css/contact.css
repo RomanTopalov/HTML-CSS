@@ -1,0 +1,350 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-menu {
+    float: left;
+    height: 1000px;
+    width: 420px;
+    background: violet;
+}
+/*======
+menu
+======*/
+
+
+img.logo{
+    max-width: 100%;
+
+
+    margin-top: 20px;
+    padding-left: 60px;
+
+
+
+}
+
+div.nav{
+    margin: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative; /* Фиксированное положение */
+    left: 0; top: 0; /* Левый нижний угол */
+
+    width:14.4%;
+    z-index: 998;
+
+}
+
+ul.nav-stacked{
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 30px;
+    list-style: none;
+    text-align: justify;
+
+
+}
+
+li.menu{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+ul.nav.nav-tabs{
+    border: none;
+}
+
+li.tab{
+    background-color: #B8B8B8;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+li:active {
+    background-color: #FFFFFF;
+}
+
+.nav-tabs>li>a {
+    border-radius: 0 !important;
+}
+
+
+
+.pole{
+    background-color: #B8B8B8;
+    height: 20px;
+    width: 100%;
+    margin-right: 0px ;
+}
+
+@media screen and (max-width: 620px){
+    .container-fluid{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 420px){
+    .container-fluid{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 220px){
+    .container-fluid{
+        margin-left: 50px;
+    }
+}
+
+
+
+a.dropdown-toggle{
+    background-color: #fff;
+}
+
+li.menu:hover, li.menu:active, li.menu:focus{
+    -webkit-box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.69);
+    -moz-box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.69);
+    box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.69)
+}
+
+li.sub-menu:hover, li.sub-menu:active, li.sub-menu:focus{
+    -webkit-box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.69);
+    -moz-box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.69);
+    box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.69);
+    background-color: #ccc;
+}
+
+
+li a{
+    color: #000;
+}
+
+
+
+li a:hover, li a:active, li a:focus{
+    text-decoration: none;
+    color: inherit;
+    background-color: #fff;
+}
+
+
+ul.sub-menu{
+    position: absolute;
+    left:99%;
+    top:-1%;
+    border-radius: 0;
+    background-color: #ccc;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+li.sub-menu{
+    display: inline-block;
+    font-size: 25px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.dropdown-menu>li.sub-menu>a:hover, .dropdown-menu>li.sub-menu>a:active, .dropdown-menu>li.sub-menu>a:focus{
+    text-decoration: none;
+    color: inherit;
+    background-color:#ccc;
+}
+
+.dropdown-menu>li.sub-menu>a{
+    white-space: normal;
+    text-align: center;
+
+}
+.sidebar-info-main-div {
+    position: relative;
+
+    display: inline-block;
+    left: 33px;
+    top: 20px;
+    font-size: 24px;
+}
+
+.sidebar-info-contact {
+
+
+    margin: 0px;
+    padding-top: 17px;
+    padding-left: 3px;
+
+
+}
+
+ul.sidebar-info-contact {
+    position: relative;
+    list-style: none; /* забирає маркування*/
+    float: left;
+    padding-top: 1px;
+    text-align: justify;
+
+}
+
+ul.sidebar-info-contact > li {
+    display: block;
+}
+
+.sidebar-images-ul-contact-icons img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+
+}
+
+ul.sidebar-images-ul-contact-icons {
+    margin-top: 217px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 75px;
+
+}
+
+.sidebar-images-li-contact img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+/*-------------------------------------*/
+
+.footer-form-for-inputs{
+
+    background: greenyellow;
+    width: 100%;
+    height: 100px;
+}
+
+/*-------------------------------------*/
+
+.backgroung-maps {
+
+    width: 100%;
+    height: 900px;
+    /*  background-image: url("images/mapsScreen.png");*/
+    background: yellow;
+}
+
+/*------------- контактна форма ---------------------*/
+
+.contact-form {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    border: 1px solid #737272;
+    width: 486px;
+    height: 550px;
+    background-color: #fff;
+}
+
+.info-contact {
+}
+
+.title-contact {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.contact-menu a {
+    display: block; /* властивість блоку*/
+    height: auto;
+    width: 70px;
+
+    text-decoration: none; /*прибрати декорацію якорів*/
+    text-align: left;
+    color: #f1f0f0;
+    font-size: 20px;
+}
+
+.contact-menu a:hover {
+    text-decoration: underline; /*прибрати декорацію якорів*/
+    color: #3c3c3c;
+}
+
+ul.contact-menu > li {
+    display: inline-block;
+}
+
+.info-main-div {
+    position: relative;
+
+    display: inline-block;
+    left: 68px;
+    top: 20px;
+    font-size: 24px;
+}
+
+.info-contact {
+
+    padding-left: 9px;
+    margin: 0px;
+    padding-top: 17px;
+
+}
+
+ul.info-contact {
+    position: relative;
+    list-style: none; /* забирає маркування*/
+    float: left;
+    padding-top: 1px;
+
+}
+
+ul.info-contact > li {
+    display: block;
+}
+
+.images-ul-contact-icons img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+
+}
+
+ul.images-ul-contact-icons {
+    margin-top: 217px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 75px;
+
+}
+
+.images-li-contact img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+/*================= form input =========*/
+.form-text{
+    position: relative;
+
+    width: 20%;
+height: auto;
+    background: red;
+    left: 420px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
