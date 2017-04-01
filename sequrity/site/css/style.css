@@ -3,16 +3,11 @@
     position: relative;
     left: 50px;
 }
-
 @font-face {
-    font-family: 'PFDinTextCompPro-Regular';
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf');
+    font-family: 'pfdintextcomppro-regular';
+    src: url('../fonts/pfdintextcomppro-regular.ttf');
 }
 
-@font-face {
-    font-family: 'PFDinTextCompPro-XThinItal';
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf');
-}
 
 * {
     margin: 0px;
@@ -21,8 +16,8 @@
 }
 
 p {
-    font-family: "PFDinTextCompPro-Regular" !important;
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular" !important;
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     font-size: 24px;
     color: #fff;
 }
@@ -50,8 +45,8 @@ p {
 
 body,
 .nav {
-    font-family: "PFDinTextCompPro-Regular" !important;
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular" !important;
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     max-width: 1920px;
     margin: 0px;
     padding: 0px;
@@ -67,8 +62,8 @@ div.row.content {
 
 h4 {
     text-align: center;
-    font-family: "PFDinTextCompPro-Regular" !important;
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular" !important;
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     font-size: 36px !important;
     color: #fff !important;
 }
@@ -116,8 +111,8 @@ img.logo {
 
 div.nav {
     margin: 0;
-    font-family: "PFDinTextCompPro-Regular" !important;
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular" !important;
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     padding-right: 0px;
     padding-left: 0px;
     position: fixed; /* Фиксированное положение */
@@ -136,8 +131,8 @@ div.nav {
 
 .dropdown-menu li a {
     font-size: 17pt;
-    font-family: "PFDinTextCompPro-Regular";
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     padding-top: -10px;
 
 }
@@ -153,8 +148,8 @@ ul.nav-stacked {
     list-style: none;
     text-align: justify;
     line-height: 40px;
-    font-family: "PFDinTextCompPro-Regular";
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
 
 }
 
@@ -243,9 +238,7 @@ figcaption {
     margin-right: 0px;
 }
 
-a.dropdown-toggle {
-    background-color: #fff;
-}
+
 
 li.menu:hover, li.menu:active, li.menu:focus {
     -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.69);
@@ -389,8 +382,8 @@ img.servis {
 
 /*====form1===*/
 .form p {
-    font-family: "PFDinTextCompPro-Regular";
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf');
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf');
     font-size: 18px;
     font-weight: 500;
     color: #fff;
@@ -419,8 +412,8 @@ img.servis {
 }
 
 .checkbox label, .radio label {
-    font-family: "PFDinTextCompPro-Regular";
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     color: #fff;
     padding: 0px 0px 0px 0px;
 
@@ -695,8 +688,8 @@ label {
 }
 
 form.checkbox {
-    font-family: "PFDinTextCompPro-regular";
-    src: url('../fonts/PFDinTextCompPro-regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     color: #fff;
     position: relative;
     left: 39%;
@@ -804,15 +797,15 @@ button[type=submit] {
 }
 
 .forma1 p {
-    font-family: "PFDinTextCompPro-regular";
-    src: url('../fonts/PFDinTextCompPro-regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     color: #fff;
 
 }
 
 div.form {
-    font-family: "PFDinTextCompPro-Regular";
-    src: url('../fonts/PFDinTextCompPro-regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     max-width: 430px;
     margin-left: 17px;
 
@@ -840,7 +833,7 @@ div.form {
     right: 0;
     /* Левый нижний угол */
     height: 66px;
-    width: 100%;
+    width: 101%;
     z-index: 999;
     text-align: right;
     margin: auto;
@@ -913,16 +906,16 @@ a {
 }
 
 .allst h3 {
-    font-family: "PFDinTextCompPro-Regular";
-    src: url('../fonts/PFDinTextCompPro-regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     font-size: 36px;
     text-align: center;
 
 }
 
 .allst h4 {
-    font-family: "PFDinTextCompPro-Regular";
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     text-decoration: uppercase !important;
     font-size: 24px !important;
     color: #000 !important;
@@ -1052,21 +1045,21 @@ div.text {
 }
 
 .about p {
-    font-family: "PFDinTextCompPro-Regular";
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     color: #000;
     padding-left: 38px;
     padding-right: 38px;
 }
 
 .about_name {
-    font-family: "PFDinTextCompPro-Regular";
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     color: #000;
     font-size: 36px;
 }
 
-/*======================= BANNER +++++++++++++++++*/
+/*======================= START INDEX BANNER +++++++++++++++++*/
 
 .banner2 {
     background-image: url(../images/banerBody2.png);
@@ -1077,28 +1070,6 @@ div.text {
 
 }
 
-@media screen and (max-width: 50em) {
-    .banner2 {
-
-        image-resolution: from-image;
-        height: 705px;
-    }
-}
-
-@media screen and (max-width: 40em) {
-    .banner2 {
-        max-width: 100%;
-        height: 705px;
-    }
-}
-
-@media screen and (max-width: 30em) {
-    .banner2 {
-        max-width: 100%;
-        height: 705px;
-
-    }
-}
 
 .showText1 {
 
@@ -1110,7 +1081,7 @@ div.text {
     position: relative;
     top: 48px;
     left: 223px;
-    transition: 0.7s;
+    transition: 1.4s;
 }
 
 .showText2 {
@@ -1123,7 +1094,7 @@ div.text {
     position: relative;
     left: 846px;
     top: 71px;
-    transition: 0.7s;
+    transition: 1.4s;
 
 }
 
@@ -1138,7 +1109,7 @@ div.text {
 
     left: 912px;
     top: 25px;
-    transition: 0.4s;
+    transition: 1.4s;
 }
 
 .showText4 {
@@ -1151,7 +1122,7 @@ div.text {
     position: relative;
     top: -380px;
     left: 1100px;
-    transition: 0.4s;
+    transition: 1.4s;
 }
 
 .showText5 {
@@ -1164,6 +1135,19 @@ div.text {
     position: relative;
     top: -380px;
     left: 1200px;
+    transition: 1.4s;
+}
+.showText6 {
+
+    background-image: url(../images/showImageText.png);
+    width: 320px;
+    height: 154px;
+    text-align: left;
+    opacity: 0;
+    position: relative;
+    top: -604px;
+    left: 392px;
+    transition: 1.4s;
 }
 
 .textImg1 {
@@ -1206,6 +1190,13 @@ div.text {
     margin-right: 5px;
     padding-top: 25px;
 }
+.textImg6 {
+    color: #000;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 5px;
+    padding-top: 25px;
+}
 
 .banImg1 {
     position: relative;
@@ -1236,6 +1227,11 @@ div.text {
     left: 476px;
     top: 444px;
 }
+.banImg6 {
+    position: relative;
+    left: -129px;
+    top: 290px;
+}
 
 .showImageText:hover img {
     opacity: 1;
@@ -1265,8 +1261,25 @@ div.text {
     opacity: 1;
     left: 1147px;
 }
+.showText6:hover {
+    opacity: 1;
+    left: 487px;
 
-/*======================= BANNER +++++++++++++++++*/
+}
+
+@media screen and (max-width: 900px) {
+    .banner2 {
+        height: 0px;
+    }
+    .banImg6{
+        opacity: 0;
+    }
+
+
+}
+
+
+/*======================= END INDEX BANNER +++++++++++++++++*/
 
 .iapp {
     position: absolute;
@@ -1357,7 +1370,7 @@ img.logo {
 .nav-menu {
     color: black;
     position: fixed;
-    width: 420px;
+    width: 398px;
 
     font-size: 24px;
     padding-right: 30px;
@@ -1447,7 +1460,7 @@ li:active {
 }
 
 a.dropdown-toggle {
-    background-color: #fff;
+    background-color: transparent;
 
 }
 
@@ -1509,7 +1522,7 @@ li.sub-menu {
 
     display: inline-block;
     left: 33px;
-    top: 20px;
+    top: -5px;
     font-size: 24px;
 }
 
@@ -1617,4 +1630,560 @@ p {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+/////////////////////////////////======= POSLUGY =============///////////////////////*/
+
+
+/*======================= BANNER 3 - Poslugy +++++++++++++++++*/
+
+
+.text-banner3-poslugy p{
+    position: absolute;
+    font-size: 36px;
+    top: 13px;
+    color: white;
+    max-width:100%;
+    Z-INDEX: 1;
+    left: 36%;
+    text-align: center;
+}
+
+
+.form3-make-padding{
+    margin-top: 88px;
+}
+div.row.content.form3{
+    margin-top: 88px;
+}
+
+.banner3_main_template{
+    position: absolute;
+    z-index: 0;
+    height: 805px;
+max-width: 100%;
+}
+.all_content_banner_3{
+
+    position: relative;
+
+}
+
+.banner3{
+    position: relative;
+    left:27%;
+    top:50px;
+    max-width:100%;
+    height:auto;
+}
+
+@media screen and (max-width: 1100px) {
+    .text-banner3-poslugy p {
+        left: 1%;
+        top:25px;
+
+    }
+    .banner3{
+        left: 4%;
+
+        top:225px;
+
+    }
+    .form2{
+        position: relative;
+    }
+    .form3-make-padding{
+        margin-top: 358px;
+    }
+}
+
+
+.showText1_banner3 {
+
+    background-image: url(../images/showImageText.png);
+    width: 320px;
+    height: 154px;
+    text-align: left;
+    opacity: 0;
+    position: absolute;
+    top: 157px;
+    left: 1266px;
+    transition: 1s;
+    z-index: 1;
+}
+
+.showText2_banner3 {
+
+    background-image: url(../images/showImageText.png);
+    width: 320px;
+    height: 154px;
+    text-align: left;
+    opacity: 0;
+    position: absolute;
+    left: 1113px;
+    top: 207px;
+    transition: 1s;
+    z-index: 1;
+
+}
+
+.showText3_banner3 {
+
+    background-image: url(../images/showImageText.png);
+    width: 320px;
+    height: 154px;
+    text-align: left;
+    opacity: 0;
+    position: absolute;
+    left: 1180px;
+    top: 644px;
+    transition: 1s;
+    z-index: 1;
+}
+
+.showText4_banner3 {
+
+    background-image: url(../images/showImageText.png);
+    width: 323px;
+    height: 154px;
+    text-align: left;
+    opacity: 0;
+    position: absolute;
+    top: 311px;
+    left: 827px;
+    transition: 1s;
+    z-index: 1;
+}
+
+.showText5_banner3 {
+
+    background-image: url(../images/showImageText.png);
+    width: 320px;
+    height: 154px;
+    text-align: left;
+    opacity: 0;
+    position: absolute;
+    top: 488px;
+    left: 851px;
+    transition: 1s;
+    z-index: 1;
+}
+.showText6_banner3 {
+
+    background-image: url(../images/rounded-rectangle-1.png);
+    width: 300px;
+    height: 154px;
+    text-align: left;
+    opacity: 0;
+    position: absolute;
+    top: 56px;
+    left: 508px;
+    transition: 1s;
+    z-index: 1;
+}
+.showText7_banner3 {
+
+    background-image: url(../images/rounded-rectangle-1.png);
+    width: 300px;
+    height: 154px;
+    text-align: left;
+    opacity: 0;
+    position: absolute;
+    top: 404px;
+    left: 225px;
+    transition: 1s;
+    z-index: 1;
+}
+
+.textImg1_banner3 {
+    color: #000;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 5px;
+    padding-top: 25px;
+
+}
+
+.textImg2_banner3 {
+    color: #000;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 5px;
+    padding-top: 25px;
+}
+
+.textImg3_banner3{
+    color: #000;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 5px;
+    padding-top: 25px;
+}
+
+.textImg4_banner3 {
+    color: #000;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 5px;
+    padding-top: 25px;
+}
+
+.textImg5_banner3 {
+    color: #000;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 5px;
+    padding-top: 25px;
+}
+.textImg6_banner3 {
+    color: #000;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 5px;
+    padding-top: 25px;
+}
+.textImg7_banner3 {
+    color: #000;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 5px;
+    padding-top: 25px;
+}
+
+
+
+.showText1_banner3:hover {
+    opacity: 1;
+
+}
+
+.showText2_banner3:hover {
+    opacity: 1;
+
+}
+
+.showText3_banner3:hover {
+    opacity: 1;
+
+}
+
+.showText4_banner3:hover {
+    opacity: 1;
+
+}
+
+.showText5_banner3:hover {
+    opacity: 1;
+
+}
+.showText6_banner3:hover {
+    opacity: 1;
+    top: 53px;
+    left: 409px;
+
+}
+.showText7_banner3:hover {
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+/*.cam1 {
+    position: absolute;
+    left: 750px;
+    top: 68px;
+
+}
+
+.cam2 {
+    position: absolute;
+    top: 439px;
+    left: 473px;
+}
+
+.cam3 {
+    position: absolute;
+    left: 1170px;
+    top: 249px;
+
+}
+
+.cam4 {
+    position: absolute;
+    left: 868px;
+    top: 344px;
+
+}
+
+.cam5 {
+    position: absolute;
+    left: 1396px;
+    top: 190px;
+}
+.cam6 {
+    position: absolute;
+    left: 1230px;
+    top: 685px;
+}
+.tv1{
+    position: absolute;
+    left: 885px;
+    top: 529px;
+
+}
+
+@media screen and (max-width: 800px) {
+    .text-banner3-poslugy p {
+        left: 0px;
+    }
+    .form3-make-padding{
+
+    }
+    .banner3_main_template{
+        max-width: 100%;
+        height: 705px;
+    }
+    .banner3{
+        position: relative;
+        left:0.5%;
+        top:103px;
+        max-width: 100%;
+    }
+
+    .cam1 {
+        position: absolute;
+        left: 10%;
+        top: 68px;
+
+    }
+
+    .cam2 {
+        position: absolute;
+        top: 337px;
+        left: -73px;
+    }
+
+    .cam3 {
+        position: absolute;
+        left: 222px;
+        top: 274px;
+    }
+
+    .cam4 {
+        position: absolute;
+        left: 592px;
+        top: 148px;
+
+    }
+
+    .cam5 {
+        position: absolute;
+        left: 396px;
+        top: 190px;
+    }
+    .cam6 {
+        position: absolute;
+        left: 480px;
+        top: 529px;
+    }
+    .tv1{
+        position: absolute;
+        left: 38%;
+        top: 408px;
+
+    }
+    .form3-make-padding {
+        margin-top: 170px;
+    }
+
+}*/
+
+
+
+/*======================= BANNER +++++++++++++++++*/
+
+/*
+/////////////////////////////////======= POSLUGY =============///////////////////////
+*/
+
+/*
+/////////////////////////////////======= CONTACT =============///////////////////////
+*/
+
+/*------------- контактна форма ---------------------*/
+
+.backgroung-maps{
+    z-index: 0;
+    position: relative;
+    max-width: 100%;
+    height: 826px;
+}
+
+.contact-form {
+    position: absolute;
+    top: 10%;
+    left: 200px;
+    border: 1px solid #737272;
+    width: 486px;
+    height: 550px;
+    background-color: #fff;
+}
+
+.info-contact {
+    padding-left: 0px;
+}
+
+.title-contact {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.contact-menu a {
+    display: block; /* властивість блоку*/
+    height: auto;
+
+
+    text-decoration: none; /*прибрати декорацію якорів*/
+    text-align: left;
+    color: #f1f0f0;
+    font-size: 20px;
+}
+
+.contact-menu a:hover {
+    text-decoration: underline; /*прибрати декорацію якорів*/
+    color: #3c3c3c;
+}
+
+ul.contact-menu > li {
+    display: inline-block;
+}
+
+.info-main-div {
+    position: relative;
+
+    display: inline-block;
+    left: 68px;
+    top: 20px;
+    font-size: 24px;
+}
+
+.info-contact {
+
+    padding-left: 9px;
+    margin: 0px;
+    padding-top: 17px;
+
+}
+
+ul.info-contact {
+    position: relative;
+    list-style: none; /* забирає маркування*/
+    float: left;
+    padding-top: 1px;
+
+}
+
+ul.info-contact > li {
+    display: block;
+}
+ul.contact-menu{
+
+    margin-left: 31px;
+    margin-top: 15px;
+
+}
+
+.images-ul-contact-icons img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+
+}
+
+ul.images-ul-contact-icons {
+    margin-top: 217px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 40px;
+
+}
+
+.images-li-contact img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .contact-form{
+        left: 5%;
+
+    }
+    .checkbox_position{
+        position: relative;
+        top: 35px;
+    }
+}
+
+
+/*-------------------------------------*/
+
+
+
+
+
+/*
+/////////////////////////////////======= CONTACT =============///////////////////////
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
