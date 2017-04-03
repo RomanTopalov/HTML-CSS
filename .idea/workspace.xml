@@ -4,34 +4,11 @@
     <list default="true" id="113f54b5-cb91-42cb-8214-5963a6426eb6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test2" afterPath="$PROJECT_DIR$/Test2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactForm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/ContactForm/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactForm/contact/contact.html" afterPath="$PROJECT_DIR$/ContactForm/contact/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/.idea/workspace.xml" afterPath="$PROJECT_DIR$/sequrity/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/.gitignore" afterPath="$PROJECT_DIR$/sequrity/site/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/.jshintrc" afterPath="$PROJECT_DIR$/sequrity/site/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/LICENSE" afterPath="$PROJECT_DIR$/sequrity/site/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/sequrity/site/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/css/jquery.rotation.css" afterPath="$PROJECT_DIR$/sequrity/site/css/jquery.rotation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/css/jquery.rotation.theme.css" afterPath="$PROJECT_DIR$/sequrity/site/css/jquery.rotation.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test2/slider/slider.css" afterPath="$PROJECT_DIR$/Test2/slider/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/contact.html" afterPath="$PROJECT_DIR$/sequrity/site/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/css/style.css" afterPath="$PROJECT_DIR$/sequrity/site/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/sequrity/site/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/fonts/font-awesome-4.7.0/css/font-awesome.css" afterPath="$PROJECT_DIR$/sequrity/site/fonts/font-awesome-4.7.0/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/sequrity/site/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/sequrity/site/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/sequrity/site/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/index.html" afterPath="$PROJECT_DIR$/sequrity/site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/js/Gruntfile.js" afterPath="$PROJECT_DIR$/sequrity/site/js/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/js/bootstrap.js" afterPath="$PROJECT_DIR$/sequrity/site/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/sequrity/site/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/js/jquery.rotation.css" afterPath="$PROJECT_DIR$/sequrity/site/js/jquery.rotation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/js/jquery.rotation.js" afterPath="$PROJECT_DIR$/sequrity/site/js/jquery.rotation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/js/jquery.rotation.theme.css" afterPath="$PROJECT_DIR$/sequrity/site/js/jquery.rotation.theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/js/npm.js" afterPath="$PROJECT_DIR$/sequrity/site/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/test/index.html" afterPath="$PROJECT_DIR$/sequrity/site/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/test/init.js" afterPath="$PROJECT_DIR$/sequrity/site/test/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/test/vendor/jquery.js" afterPath="$PROJECT_DIR$/sequrity/site/test/vendor/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/test/vendor/qunit.css" afterPath="$PROJECT_DIR$/sequrity/site/test/vendor/qunit.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/test/vendor/qunit.js" afterPath="$PROJECT_DIR$/sequrity/site/test/vendor/qunit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sequrity/site/poslugy.html" afterPath="$PROJECT_DIR$/sequrity/site/poslugy.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -94,6 +71,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -108,7 +86,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -132,11 +109,13 @@
       <workItem from="1490743441700" duration="102000" />
       <workItem from="1490897010662" duration="1658000" />
       <workItem from="1491059914358" duration="91000" />
+      <workItem from="1491165788549" duration="347000" />
+      <workItem from="1491183762300" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2920000" />
+    <option name="totallyTimeSpent" value="3279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -171,6 +150,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">

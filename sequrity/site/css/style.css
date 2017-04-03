@@ -178,16 +178,16 @@ li:active {
 }
 
 .nav-tabs > li > a {
-    font-family: "PFDinTextCompPro-XThinItal";
-    src: url('../fonts/PFDinTextCompPro-XThinItal.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     font-size: 36px;
     border-radius: 0 !important;
 
 }
 
 figcaption {
-    font-family: 'PFDinTextCompPro-XThinItal';
-    src: url('../fonts/PFDinTextCompPro-XThinItal.ttf');
+    font-family: 'pfdintextcomppro-regular';
+    src: url('../fonts/pfdintextcomppro-regular.ttf');
 
     font-size: 100%; /* start with a flexible baseline, more on this in the next section */
 
@@ -198,21 +198,21 @@ figcaption {
 
 @media screen and (max-width: 50em) {
     figcaption {
-        font-family: 'PFDinTextCompPro-XThinItal';
+        font-family: 'pfdintextcomppro-regular';
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 40em) {
     figcaption {
-        font-family: 'PFDinTextCompPro-XThinItal';
+        font-family: 'pfdintextcomppro-regular';
         font-size: 8px;
     }
 }
 
 @media screen and (max-width: 30em) {
     figcaption {
-        font-family: 'PFDinTextCompPro-XThinItal';
+        font-family: 'pfdintextcomppro-regular';
 
         font-size: 5px;
 
@@ -225,8 +225,8 @@ figcaption {
 }
 
 .allst p {
-    font-family: "PFDinTextCompPro-XThinItal";
-    src: url('../fonts/PFDinTextCompPro-XThinItal.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     color: #000;
 
 }
@@ -338,8 +338,8 @@ li.tabs {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    font-family: "PFDinTextCompPro-XThinItal";
-    src: url('../fonts/PFDinTextCompPro-XThinItal.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     text-align: left;
     font-size: 100%; /* start with a flexible baseline, more on this in the next section */
 
@@ -433,8 +433,8 @@ img.servis {
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
     font-size: 36px;
-    font-family: "PFDinTextCompPro-XThinItal";
-    src: url('../fonts/PFDinTextCompPro-XThinItal.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
 }
 
 div.row.content.form1 {
@@ -932,8 +932,8 @@ blockquote {
 }
 
 blockquote p {
-    font-family: "PFDinTextCompPro-XThinItal";
-    src: url('../fonts/PFDinTextCompPro-XThinItal.ttf') !important;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     font-size: 24px;
     color: #000;
 
@@ -1319,8 +1319,8 @@ html {
 div.text2 {
     margin-left: 10px;
     font-size: 24px;
-    font-family: 'PFDinTextCompPro-XThinItal';
-    src: url('../fonts/PFDinTextCompPro-XThinItal.ttf') !important;
+    font-family: 'pfdintextcomppro-regular';
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     font-weight: bolder;
     font-style: bolder;
 }
@@ -1644,6 +1644,119 @@ p {
 
 /*
 /////////////////////////////////======= POSLUGY =============///////////////////////*/
+
+/*================== start  MAIN FOTO + HEADER NAME ========*/
+.item-background-video-secur{
+
+}
+.img_video-secur_banner{
+    position: relative;
+    z-index: 0;
+}
+.video-secur-title-text-main{
+    max-width: 200px;
+    height: auto;
+    z-index: 11;
+    position: absolute;
+    left: 18%;
+    font-size: 18px;
+    top: 4%;
+}
+
+.title-video-secur {
+    position: relative;
+    font-size: 60px;
+
+}
+
+
+
+.video-secur-menu a {
+    display: block; /* властивість блоку*/
+    height: auto;
+
+    font-size: 20px;
+    text-decoration: none; /*прибрати декорацію якорів*/
+    text-align: left;
+    color: #f1f0f0;
+}
+
+.video-secur-menu a:hover {
+    text-decoration: underline; /*прибрати декорацію якорів*/
+    color: #3c3c3c;
+    background: #ccd1d6;
+}
+
+ul.video-secur-menu > li {
+    display: inline-block;
+}
+
+
+/*================== end  MAIN FOTO + HEADER NAME ========*/
+
+/*========start  Small slider ============*/
+.slider-poslugy{
+    display: flex;
+    margin-left: 230px;
+    margin-top: 150px;
+    font-size: 18px;
+}
+.foto-slider-poslugy{
+    display: flex;
+}
+.title-some-xern-name{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+margin-top: -40px;
+   align-items: center;
+}
+p.text-slider-good-choice{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+p.text-slider-video-sec{
+    text-transform: uppercase;
+    color: #77ccf0;
+    font-size: 36px;
+}
+p.price-slider{
+    margin-left: 335px;
+}
+.right-all-content-slider{
+    display: flex;
+    flex-direction: column;
+}
+.top-content-slider{
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.name-title-slider{
+    display: flex;
+}
+
+.name-things-and-count{
+    display: flex;
+    margin-top: 12px;
+    font-size: 18px;
+}
+.text-slider{
+    margin-top: 12px;
+    display: flex;
+    font-size: 18px;
+    margin-right: 200px;
+}
+
+
+
+
+/*========end  Small slider ============*/
+
+
 
 
 /*======================= BANNER 3 - Poslugy +++++++++++++++++*/
@@ -2020,7 +2133,7 @@ max-width: 100%;
 /*======================= BANNER +++++++++++++++++*/
 
 /*
-/////////////////////////////////======= POSLUGY =============///////////////////////
+/////////////////////////////////======= END POSLUGY =============///////////////////////
 */
 
 /*
@@ -2144,19 +2257,299 @@ ul.images-ul-contact-icons {
 }
 
 
-/*-------------------------------------*/
+/*-===== CONTACT =============///////////////////////
+*/
+/*============title start ============*/
+.item-background-video-gotovi{
+
+}
+.img_video-gotovi_banner{
+    position: relative;
+    z-index: 0;
+}
+.video-gotovi-title-text-main{
+    max-width: 200px;
+    height: auto;
+    z-index: 11;
+    position: absolute;
+    left: 18%;
+    font-size: 18px;
+    top: 4%;
+}
+
+.title-video-gotovi {
+    position: relative;
+
+}
+h1.title-video-gotovi {
+    text-align: left;
+    font-size: 60px;
+    color: white;
+    width:450px;
+
+
+}
+
+
+.video-gotovi-menu a {
+    display: block; /* властивість блоку*/
+    height: auto;
+    font-size: 22px;
+    text-decoration: none; /*прибрати декорацію якорів*/
+    text-align: left;
+    color: #f1f0f0;
+}
+
+.video-gotovi-menu a:hover {
+    text-decoration: underline; /*прибрати декорацію якорів*/
+    color: #3c3c3c;
+    background: #025e97;
+}
+ul.video-gotovi-menu{
+    width:600px;
+    color: white;
+    margin-left: -270px;
+
+}
+ul.video-gotovi-menu > li {
+    display: inline-block;
+
+}
+
+
+
+/*============title end ============*/
 
 
 
 
+
+
+/*Slider gotovi rishennya*/
+.color_firm_slider4{
+    color: #01a1e4;
+}
+.about_name_slider_4{
+    position: relative;
+    top: 100px;
+    font-family: "pfdintextcomppro-regular";
+    src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
+    color: #000;
+    font-size: 36px;
+    text-align: center;
+    
+}
+
+.slider_4{
+    display: flex;
+    margin-top: 130px;
+    margin-left: 135px;
+}
+
+.foto_slider_4{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+
+}
+
+
+
+
+.sliderg {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.slideg_viewer {
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideg_group {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.slideg {
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.slideg:first-child {
+    display: block;
+}
+
+.slideg:nth-of-type(1) {
+
+}
+
+
+
+
+
+
+
+.directional_nav {
+    height: 120px;
+    margin: 0 auto;
+    max-width: 1650px;
+    position: relative;
+    top: -500px;
+
+}
+
+.previous_btn {
+    bottom: 0;
+    color: #01a1e4;
+    margin: auto;
+    position: absolute;
+    left: -35px;
+    top: 0;
+}
+
+.next_btn {
+    color: #01a1e4;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+.previous_btn, .next_btn {
+    cursor: pointer;
+    height: 65px;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    width: 65px;
+}
+
+.previous_btn:hover, .next_btn:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+    .previous_btn {
+        left: 10px;
+    }
+    .next_btn {
+        right: 100px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .previous_btn {
+        left: 50px;
+    }
+    .next_btn {
+        right: 50px;
+    }
+}
 
 /*
-/////////////////////////////////======= CONTACT =============///////////////////////
-*/
+..................... Тіло в слайдері -----------*/
+
+.mainSliderg{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:flex;
+    max-width:1300px;
+    margin: auto;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+    flex-flow: row wrap;
+}
+.container-sliderg{
+    flex: 1 1 25%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 15px;
+}
+.imageg{
+    flex:1 1 100%;
+}
+
+.imageg img{
+    width: 100%;
+    height: auto;
+}
+.textg{
+    padding-left: 10px;
+    flex: 1 1 200px;
+}
+.name-company-sliderg{
+    margin-top: 0px;
+    color: #01a1e4;
+}
+.textg p{
+    margin-bottom: 0px;
+}
+
+
+/*End slider*/
 
 
 
 
+/* Start galery*/
+.item-background-galery{
+
+}
+.img_gallery_banner{
+    position: relative;
+    z-index: 0;
+}
+.galery-title-text-main{
+    max-width: 170px;
+    height: auto;
+    z-index: 11;
+    position: absolute;
+    left: 18%;
+    font-size: 18px;
+    top: 5%;
+}
+
+.title-gallery {
+    position: relative;
+    font-size: 60px;
+    left: 35px;
+}
+
+
+
+.gallery-menu a {
+    display: block; /* властивість блоку*/
+    height: auto;
+
+    font-size: 20px;
+    text-decoration: none; /*прибрати декорацію якорів*/
+    text-align: left;
+    color: #f1f0f0;
+}
+
+.gallery-menu a:hover {
+    text-decoration: underline; /*прибрати декорацію якорів*/
+    color: #3c3c3c;
+    background: #dee2e1;
+}
+
+ul.gallery-menu > li {
+    display: inline-block;
+}
+
+/* End galery*/
 
 
 
