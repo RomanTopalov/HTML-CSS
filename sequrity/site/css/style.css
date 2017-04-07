@@ -1,7 +1,19 @@
 
+
+
+/*
+Theme Name: Svit Bezpeky
+Theme URI: http://svit-bezpeky.com
+Author: Volodymyr
+Description: Theme for RoizMedia
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: roizmedia
+*/
+
 .main-body-wrapper {
-    position: relative;
-    left: 50px;
+    margin:0 auto;
 }
 @font-face {
     font-family: 'pfdintextcomppro-regular';
@@ -56,8 +68,8 @@ body,
 
 /*
 div.row.content {
-	margin-right: -20px;
-	margin-left: -30px;
+    margin-right: -20px;
+    margin-left: -30px;
 }*/
 
 h4 {
@@ -74,7 +86,7 @@ Slider
 div.slider {
     max-width: 1600px;
     /*height: 826px;*/
-    text-align: right;
+
     padding: 0px;
     margin-right: 0px; /*изменил с -10*/
 }
@@ -95,6 +107,14 @@ ol.carousel-indicators {
 
 div.carousel {
     max-width: 1600px;
+
+}
+div.carousel-inner{
+
+}
+
+.carusel-inner{
+        height: 745px !important;
 }
 
 /*======
@@ -139,6 +159,7 @@ div.nav {
 
 ul.dropdown-menu.sub-menu {
     padding: 0px;
+
 }
 
 ul.nav-stacked {
@@ -222,6 +243,7 @@ figcaption {
 .form2 .checkbox, .radio {
     position: relative;
     right: -30px;
+    top: 5px;
 }
 
 .allst p {
@@ -459,14 +481,18 @@ div.row.content.form1 {
 /*============================== responsive first form ==========================*/
 
 @media screen and (max-width: 800px) {
-    .flex {
-        display: flex;
-        flex-wrap: wrap;
-    }
+   .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
-    div.form {
-        left: 149px;
-        top: -70px;
+     div.form {
+            display: flex;
+    margin: auto !important;
+    justify-content: center;
+    align-items: center;
     }
 
     div.form p {
@@ -501,6 +527,7 @@ div.row.content.form1 {
 
 .headerForm2 {
     text-align: center;
+    margin: 20px 250px 1px 0px;
 }
 
 .form-responsive-second {
@@ -511,9 +538,9 @@ div.row.content.form1 {
 
 .check-form-second {
     display: flex;
-    padding-top: 15px;
-    font-size: 15px;
-    padding-left: 10px;
+    padding-top: 0px;
+    font-size: 23px;
+    padding-left: 32px;
 }
 
 @media screen and (max-width: 800px) {
@@ -523,7 +550,7 @@ div.row.content.form1 {
     }
 
     .headerForm2 {
-        margin-right: 70px;
+        margin-right: 0px;
     }
 
     button.btn.btn-default.form2 {
@@ -551,8 +578,9 @@ div.row.content.form1 {
 .text-near-timer-header {
     position: relative;
     display: flex;
-    top: 180px;
-    left: -263px;
+    top: 150px;
+    left: -245px;
+    /* font-size: 60px; */
     flex-direction: column;
     align-items: center;
     color: white;
@@ -572,12 +600,12 @@ text-near-timer-header p {
     position: relative;
     margin: 10px 30px 10px;
     top: 100px;
-    right: 602px;
+    right: 685px;
 }
 
 p.count-timer-value-text {
     font-size: 24px;
-    padding-right: 30px;
+    padding-right: 60px;
     padding-left: 60px;
 
 }
@@ -599,16 +627,16 @@ p.count-timer-value-text {
 
 .make-group-responsive-third-form {
     position: relative;
-    left: 900px;
+    left: 980px;
     display: flex;
-    top: -300px;
+    top: -250px;
     margin-right: 150px;
 }
 
 .check-form-third {
     position: relative;
     left: 1200px;
-    top: -300px;
+    top:-210px;
     display: flex;
     flex-wrap: wrap;
     font-size: 24px;
@@ -618,18 +646,21 @@ p.count-timer-value-text {
 
 @media screen and (max-width: 1400px) {
     .timer-header-together {
-        position: relative;
-        top: -170px;
-        left: -192px;
-    }
+    /* position: relative; */
+     top: 0px!important; 
+     left: 0px!important; 
+    margin: auto!important;
+    margin-left: 28px!important;
+    margin-top: 20px!important;
+    text-align: center;
+}
 
     .text-near-timer-header {
         position: relative;
         display: flex;
-        top: 180px;
-        left: 29%;
-        flex-direction: column;
-        align-items: center;
+        top: 0px!important;
+        left: 0px!important;
+      
         color: white;
     }
 
@@ -658,7 +689,8 @@ p.count-timer-value-text {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-left: -141px;
+       margin:auto!important;
+           margin-top: 112px!important;
     }
 
 }
@@ -684,7 +716,7 @@ input#pwd.form-control {
 }
 
 label {
-    padding-right: 0px;
+    padding-right: 7px;
 }
 
 form.checkbox {
@@ -692,10 +724,35 @@ form.checkbox {
     src: url('../fonts/pfdintextcomppro-regular.ttf') !important;
     color: #fff;
     position: relative;
-    left: 39%;
+    left: 45%;
     margin-bottom: -1%;
     padding-top: 40px;
+    font-size: 20px;
 
+}
+
+form.checkboxm {
+    font-family: "pfdintextcomppro-regular";
+    src: url(../fonts/pfdintextcomppro-regular.ttf) !important;
+    color: #fff;
+    position: relative;
+    left: 24%;
+    margin-bottom: -1%;
+    padding-top: 40px;
+    font-size: 20px;
+    display:flex;
+}
+
+form.checkbox1 {
+    font-family: "pfdintextcomppro-regular";
+    src: url(../fonts/pfdintextcomppro-regular.ttf) !important;
+    color: #fff;
+    position: relative;
+    left: 30%;
+    display:flex;
+    margin-bottom: -1%;
+    padding-top: 40px;
+    font-size: 20px;
 }
 
 input[type=password] {
@@ -729,14 +786,7 @@ input[type=password] {
     }
 }*/
 input[type=email] {
-    border-radius: 0px;
-    border: none;
-    margin-bottom: 0px;
-    width: 260px;
-    margin-right: 27px;
-    margin-left: 27px;
-    height: 45px;
-    margin-bottom: 50px;
+    
 }
 
 div.form3 button[type=submit] {
@@ -768,11 +818,11 @@ button[type=submit] {
 
 /*====form2===*/
 .form2 {
-    margin: 1px;
+ margin: 1px;
     background-color: #029ADA;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 125px;
+     padding-top: 96px;
+    /* padding-bottom: 8px; */
+    padding-left: 110px;
 }
 
 .form2 p {
@@ -1079,8 +1129,8 @@ div.text {
     text-align: left;
     opacity: 0;
     position: relative;
-    top: 48px;
-    left: 223px;
+     top: 44px;
+    left: 178px;
     transition: 1.4s;
 }
 
@@ -1092,8 +1142,8 @@ div.text {
     text-align: left;
     opacity: 0;
     position: relative;
-    left: 846px;
-    top: 71px;
+       left: 802px;
+    top: 70px;
     transition: 1.4s;
 
 }
@@ -1107,8 +1157,8 @@ div.text {
     opacity: 0;
     position: relative;
 
-    left: 912px;
-    top: 25px;
+    left: 888px;
+    top: 12px;
     transition: 1.4s;
 }
 
@@ -1120,8 +1170,8 @@ div.text {
     text-align: left;
     opacity: 0;
     position: relative;
-    top: -380px;
-    left: 1100px;
+       top: -385px;
+    left: 1136px;
     transition: 1.4s;
 }
 
@@ -1133,8 +1183,8 @@ div.text {
     text-align: left;
     opacity: 0;
     position: relative;
-    top: -380px;
-    left: 1200px;
+  top: -398px;
+    left: 1234px;
     transition: 1.4s;
 }
 .showText6 {
@@ -1145,8 +1195,8 @@ div.text {
     text-align: left;
     opacity: 0;
     position: relative;
-    top: -604px;
-    left: 392px;
+     top: -604px;
+    left: 385px;
     transition: 1.4s;
 }
 
@@ -1239,31 +1289,31 @@ div.text {
 
 .showText1:hover {
     opacity: 1;
-    left: 283px;
+   
 }
 
 .showText2:hover {
     opacity: 1;
-    left: 906px;
+  
 }
 
 .showText3:hover {
     opacity: 1;
-    left: 990px;
+   
 }
 
 .showText4:hover {
     opacity: 1;
-    left: 1055px;
+   
 }
 
 .showText5:hover {
     opacity: 1;
-    left: 1147px;
+    
 }
 .showText6:hover {
     opacity: 1;
-    left: 487px;
+   
 
 }
 
@@ -1312,9 +1362,16 @@ html {
     font-size: 15pt;
 }
 
-.form3 input {
-    margin-left: 27px;
+
+.form3 {
+    margin-left: 55px;
+    margin-top: -15px;
+    font-size: 20px;
+    font-family: inherit;
+    border-radius: 5px;
+    padding: 10px;
 }
+
 
 div.text2 {
     margin-left: 10px;
@@ -1358,25 +1415,23 @@ h3.about_name {
 /*======
 menu
 ======*/
-
 img.logo {
     max-width: 100%;
-
     margin-top: 20px;
-    padding-left: 83px;
-
+    padding: 10px 50px 5px 20px;
 }
 
+
 .nav-menu {
+    text-align: center;
+    list-style: none;
     color: black;
     position: fixed;
     width: 398px;
-
-    font-size: 24px;
+    font-size: 36px;
     padding-right: 30px;
     z-index: 5;
     display: block;
-
 }
 
 div.nav {
@@ -1404,8 +1459,10 @@ ul.nav {
 
 li.menu {
     text-align: center;
-    width: 100%;
+        width: 100%;
     padding-bottom: 15px;
+       /* margin-left: -12px;*/
+        z-index: 0;
 
 }
 
@@ -1437,25 +1494,25 @@ li:active {
 
 @media screen and (max-width: 820px) {
     .container-fluid {
-        margin-left: 50px;
+        margin-left: 0px!important;
     }
 }
 
 @media screen and (max-width: 620px) {
     .container-fluid {
-        margin-left: 50px;
+        margin-left: 0px!important;
     }
 }
 
 @media screen and (max-width: 420px) {
     .container-fluid {
-        margin-left: 50px;
+         margin-left: 0px;
     }
 }
 
 @media screen and (max-width: 220px) {
     .container-fluid {
-        margin-left: 50px;
+      margin-left: 0px;
     }
 }
 
@@ -1464,7 +1521,7 @@ a.dropdown-toggle {
 
 }
 
-li.menu:hover, li.menu:active, li.menu:focus {
+li.nav-menu:hover, li.nav-menu:active, li.nav-menu:focus {
 
     -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.69);
     -moz-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.69);
@@ -1521,8 +1578,8 @@ li.sub-menu {
     position: relative;
 
     display: inline-block;
-    left: 33px;
-    top: -5px;
+        left: 0;
+    top: 22px;
     font-size: 24px;
 }
 
@@ -1708,7 +1765,7 @@ ul.video-secur-menu > li {
     display: flex;
     flex-direction: column;
     max-width: 350px;
-margin-top: -40px;
+margin-top: -50px;
    align-items: center;
 }
 p.text-slider-good-choice{
@@ -1731,7 +1788,7 @@ p.price-slider{
     display: flex;
     height: auto;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
     font-weight: 600;
     font-size: 18px;
 }
@@ -1755,8 +1812,6 @@ p.price-slider{
 
 
 /*========end  Small slider ============*/
-
-
 
 
 /*======================= BANNER 3 - Poslugy +++++++++++++++++*/
@@ -2133,7 +2188,7 @@ max-width: 100%;
 /*======================= BANNER +++++++++++++++++*/
 
 /*
-/////////////////////////////////======= END POSLUGY =============///////////////////////
+/////////////////////////////////======= POSLUGY =============///////////////////////
 */
 
 /*
@@ -2308,6 +2363,7 @@ h1.title-video-gotovi {
 ul.video-gotovi-menu{
     width:600px;
     color: white;
+        text-align: right;
     margin-left: -270px;
 
 }
@@ -2319,10 +2375,6 @@ ul.video-gotovi-menu > li {
 
 
 /*============title end ============*/
-
-
-
-
 
 
 /*Slider gotovi rishennya*/
@@ -2503,6 +2555,9 @@ ul.video-gotovi-menu > li {
 
 
 
+/*galery*/
+
+
 /* Start galery*/
 .item-background-galery{
 
@@ -2551,29 +2606,386 @@ ul.gallery-menu > li {
 
 /* End galery*/
 
+@media (min-width: 768px){
+.navbar-nav>li>a {
+    background: transparent !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+}
+@media (min-width: 768px){
+img.logo {
+    max-width: 100%;
+
+    margin-top: 20px;
+    padding: 10px 50px 5px 20px;
+
+}
+}
+
+
+/*Title gallery*/
+
+.item-background-video-gallery{
+
+}
+.img_video-gallery_banner{
+    position: relative;
+    z-index: 0;
+}
+.video-gallery-title-text-main{
+    max-width: 200px;
+    height: auto;
+    z-index: 11;
+    position: absolute;
+    left: 18%;
+    font-size: 18px;
+    top: 4%;
+}
+
+.title-video-gallery {
+    position: relative;
+
+}
+h1.title-video-gallery {
+    text-align: left;
+    font-size: 60px;
+    color: #000;
+    width:450px;
+
+
+}
+
+
+.video-gallery-menu a {
+    display: block; /* властивість блоку*/
+    height: auto;
+    font-size: 22px;
+    text-decoration: none; /*прибрати декорацію якорів*/
+    text-align: left;
+    color: #000;
+}
+
+.video-gallery-menu a:hover {
+    text-decoration: underline; /*прибрати декорацію якорів*/
+    color: #3c3c3c;
+    background: #025e97;
+}
+ul.video-gallery-menu{
+    width:600px;
+    color: #000;
+        text-align: right;
+        margin-left: -476px;
+
+}
+ul.video-gallery-menu > li {
+    display: inline-block;
+
+}
+
+
+.btn {
+       display: inline-block;
+    padding: 3px 70px !important;
+    margin: 0px 0 0 60px !important;
+    margin-bottom: 0;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+.btn2 {
+    display: inline-block;
+    padding: 4px 60px !important;
+    margin: 18px 0 0 60px !important;
+    margin-bottom: 0;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
 
 
 
 
 
+/*
+========================== forms ================*/
+@media (min-width: 769px) and (max-width: 1500px) {
+.nav-menu{
+           width: 290px;
+    }
 
 
 
 
+@media screen and (max-width: 768px) {
+
+
+    
+
+/*==================start first form ===========*/    
+   div.wpcf7 {
+    display: flex;
+    flex-direction: column;
+}
+.make-group-responsive {
+    margin-left: 200px!important;
+    margin-right: 200px!important;
+    
+}
+
+.wpcf7-form-control-wrap {
+   padding: 0px;
+}
+input.wpcf7-form-control.wpcf7-submit.btn.form-control{
+    position: relative;
+    left: -13px
+
+
+}
+
+
+span.wpcf7-list-item {
+    display: inline-block;
+   
+    font-family: "pfdintextcomppro-regular";
+    color: #fff;
+    position: relative;
+    left: 152px;
+    top: -36px;
+    text-align: center;
+   
+}
+div.form{
+    text-align: center;
+}
+
+/*==================end first form ===========*/
+
+/*==================start second form ===========*/
+.form2 .checkbox, .radio {
+     position: relative; 
+     right: 0px; 
+     top: 0px; 
+}
+
+
+.form-responsive-second {
+    display: flex;
+    flex-direction: column;
+    margin: auto!important;
+}
+
+input.wpcf7-form-control.wpcf7-submit.btn2.form-control{
+    position: relative;
+    left: -13px
+
+
+}
+
+.form2{
+    padding-left: 0px!important;
+}
+
+/*==================end second form ===========*/
+
+
+/*==================start third form ===========*/
+
+.timer{
+    display: none;
+
+}
+
+input.wpcf7-form-control.wpcf7-submit.btn.form3{
+       margin: auto!important;
+    margin-left: 36px!important;
+
+
+}
+
+
+/*==================end third form ===========*/
+
+
+/*============================== start responsive 7 tips of company ==========================*/
+
+.stepodd {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .stepodd img {
+        margin-left: 0px !important;
+    }
+
+    .cek {
+        display: flex;
+        flex-direction: inherit;
+        flex-wrap: wrap;
+    }
+
+    .steps div {
+        text-align: center;
+        margin-left: 0px !important;
+    }
+
+    .stepeven {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .stepeven img {
+        margin-right: 0px!important;
+    }
+    .allst p {
+        display: none;
+    }
+.steps2 div{
+    text-align: center;
+    max-width: 760px!important;
+    margin-right: 0px!important;
+ display: flex;
+    width: 328px;
+    align-items: center;
+    flex-wrap: wrap; 
+
+}
+
+
+/*============================== end responsive 7 tips of company ==========================*/
+
+/*========   start banner 1 ==============
+*/
+.banImg1{
+    display: none;
+}
+
+.banImg2{
+    display: none;
+}
+.banImg3{
+    display: none;
+}
+.banImg4{
+    display: none;
+}
+.banImg5{
+    display: none;
+}
+.banImg6{
+    display: none;
+}
+
+.showText1{
+    display: none;
+}
+.showText2{
+    display: none;
+}
+.showText3{
+    display: none;
+}
+.showText4{
+    display: none;
+}
+.showText5{
+    display: none;
+}
+.showText6{
+    display: none;
+}
+/*========   end banner 1 ==============
+
+
+*/
+/*==========start Готові рішення мобільна версія======*/
+
+.video-gotovi-title-text-main {
+    display: none;
+}
+.all_content_banner_3 {
+    
+    display: none;
+}
+
+.right-all-content-slider {
+    display: none;
+
+}
+.foto-slider-poslugy {
+    display: flex;
+    position: relative;
+    left: -145px;
+}
+/*==========end Готові рішення мобільна версія======*/
+
+/*==========start poslugi======*/
+
+.video-secur-title-text-main {
+    display: none;
+}
+
+
+/*==========end poslugi======*/
+
+
+/*==========start gallery=====*/
+.video-gallery-title-text-main {
+  
+    top: 1%;
+}
+
+div.title-1{
+    display: none;
+}
+
+
+div.title-2{
+    display: none;
+}
+
+div.title-3{
+    display: none;
+}
+
+div.title-4{
+    display: none;
+}
+/*==========end poslugi======*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
