@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+
+<!--
+<input id="someInput" type="text">
+<button id="add">add</button>
+
+<script>
+ document.getElementById('add').onclick=function () {
+     var text=document.getElementById('someInput').value;
+     alert(text);
+ }
+
+</script>-->
+
+<!--
+<script>
+var x1= parseInt(prompt('text' , ''));
+var x2= parseInt(prompt('text2' , ''));
+document.write(x1+x2);
+</script>-->
+
+
+
+
+<!--
+<ul>
+    <li id="data1">data1
+        <ul class="ul1-display" id="ul1">
+            <li>data1.1</li>
+            <li>data1.1</li>
+        </ul>
+    </li>
+    <li id="data2">data2
+        <ul class="ul1-display" id="ul2">
+            <li>data2.1</li>
+            <li>data2.1</li>
+        </ul>
+    </li>
+    <li id="data3">data3
+        <ul class="ul1-display" id="ul3">
+            <li>data3.1</li>
+            <li>data3.1</li>
+        </ul>
+    </li>
+</ul>-->
+
+<div class="container" id="container"></div>
+<!--<button id="changeColor">Change color</button>-->
+
+<script>
+    document.getElementById("container").onmouseover=function () {
+        document.getElementById("container").style.background="red"
+    }
+    document.getElementById("container").onmouseout=function () {
+        document.getElementById("container").style.background="violet"
+    }
+
+</script>
+
+
+<!--
+<script>
+    document.getElementById("changeColor").onclick=function () {
+       if(document.getElementById("container").style.border=="100px solid red"){
+           document.getElementById("container").style.border="100px solid blue"
+       }else {
+           document.getElementById("container").style.border="100px solid red"
+       }
+
+    }
+
+</script>
+-->
+
+
+
+<!--<script>
+    document.getElementById("data1").onclick=function () {
+        if(document.getElementById("ul1").style.display=="block"){
+            document.getElementById("ul1").style.display="none"
+        }else {document.getElementById("ul1").style.display="block"}
+    }
+
+</script>-->
+
+
+</body>
+</html>

@@ -1,12 +1,5 @@
 /*
 
-    Template Author : pixelhint.com
-    Author Email    : contact@pixelhint.com
-    Template Name   : Magnetic
-    
-    
-    *****************************************
-    
     
     - Fonts
     - General CSS
@@ -110,25 +103,43 @@ h5, h6          { font-weight: bolder }
 }
 
 
-
-
-
-
-
 /*  Header  */
+
+header .logo {
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-right: 14px;
+}
+
+a.a-menu-gallery {
+
+}
+
+header nav ul li a:hover,
+header nav ul li a.a-menu-gallery{
+    color: #e9e8e8;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
 @media (min-width:1099px){
     header{
         display: block;
         position: fixed;
         top: 0;
         left: 0;
-        width: 250px;
+        width: 300px;
         min-height: 100%;
-        padding: 0 0 0 50px;
-        background: #ffffff; 
+       /* padding: 0 0 0 50px;*/
+        background: #202020;
+
         float: left;
         overflow: hidden;
+        color: white;
         z-index: 9999;
+        font-size: 16px;
     }
 
     header .logo{
@@ -138,13 +149,13 @@ h5, h6          { font-weight: bolder }
     header nav ul{
         display: block;
         overflow: hidden;
-        margin-top: 100px;
+        margin-top: 25px;
         list-style: none;
     }
 
     header nav ul li{
         display: block;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 
     header nav ul li a{
@@ -155,10 +166,13 @@ h5, h6          { font-weight: bolder }
         letter-spacing: 1px;
     }
 
-    header nav ul li a:hover,
+   header nav ul li a:hover,
     header nav ul li a.selected{
-        color: #969595;
+      color: #e9e8e8;
+       text-decoration: none;
+       list-style: none;
     }
+
 
     header .footer{
         position: absolute;
@@ -242,6 +256,10 @@ h5, h6          { font-weight: bolder }
         display: none;
     }
 
+}/*
+=============================== menu =====================*/
+.menu-title{
+    margin-left: 0px;
 }
 
 #menu_icon,
@@ -275,13 +293,17 @@ h5, h6          { font-weight: bolder }
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
-    z-index: 55;
+   /* z-index: 55;*/
     background: #f6f6f6;
     clear: both;
 }
 
 
 
+.navbar-brand>img {
+    display: block;
+    margin-top: -8px;
+}
 
 
 
@@ -308,7 +330,9 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
+    /*
     background: #ffffff;
+    */
     opacity: 0;
 }
 
@@ -348,6 +372,7 @@ h5, h6          { font-weight: bolder }
 
 
 /*  Inner Page  */
+/*
 .top{
     width: 100%;
     height: 350px;
@@ -361,6 +386,7 @@ h5, h6          { font-weight: bolder }
     -o-background-size: cover;
     background-position: 50% 50%;
 }
+*/
 
 .work_nav{
     display: block;
@@ -548,10 +574,13 @@ h5, h6          { font-weight: bolder }
         min-height: 100px;
         padding: 0;
         position: relative;
+        background: #202020;
     }
     header .logo{
-        margin: 40px 0 0 30px;
+        margin: 7px 0 0 30px;
         float: left;
+        width: 128px;
+        height: 100px;
     }
     header .footer{
         display: none;
@@ -560,6 +589,10 @@ h5, h6          { font-weight: bolder }
     header .close_menu{
         float: right;
         margin: 30px 30px 0 0;
+        border-radius: 18px;
+       
+        background: #f7f7f7;
+
     }
     
     header nav{
@@ -578,17 +611,18 @@ h5, h6          { font-weight: bolder }
     header nav ul li a{
         display: block;
         width: 100%;
-        padding: 30px 0;
+        padding: 5px 0;
         text-align: center;
-        color: #454545;
+        color: #f9f9f9;
         font-family: "raleway-regular", arial;
-        font-size: 14px;
+        font-size: 19px;
         text-decoration: none;
         border-top: 1px solid #f7f5f5;
-        background: #fff;
+        background: #202020;
+
     }
     header nav ul li a:active{
-        background: #f7f5f5;
+        background: #ffffff;
     }
     #menu_icon,
     .close_menu,
@@ -612,6 +646,20 @@ h5, h6          { font-weight: bolder }
     }
 }
 
+header nav ul li a{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    color: #f9f9f9;
+    font-family: "raleway-regular", arial;
+    font-size: 19px;
+    text-decoration: none;
+
+}
+header nav ul li a:active{
+    background: #202020;
+}
 @media (max-width:550px){
      .main .work{
         width: 100%;

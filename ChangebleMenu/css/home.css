@@ -1,0 +1,84 @@
+
+.menu1 a{
+    display: block;/* властивість блоку*/
+    width:240px;
+    padding:50px 0px;
+   /* background:red;*/
+    text-decoration:none;/*прибрати декорацію якорів*/
+    text-align:center;
+    margin-bottom:3px;
+
+
+
+}
+ul.menu1{
+    list-style:none;/* забирає маркування*/
+margin: auto;
+    width: fit-content;/*ширина рівняється по розміру контенту*/
+}
+.menu1>li{
+    display:inline-block;
+}
+.submenu1{
+    list-style:none;
+    position:absolute;/*зробити елемент привидом*/
+    display: block;/*зникне . приховається*/
+
+}
+.menu1>li:hover .submenu1{
+    display: block;
+}
+
+/*/////// content ===========*/
+.content-all-info{
+    display: flex;
+    justify-content: center;
+}
+
+.foto-left img{
+    width: 173px;
+    height: 213px;
+    border-radius:50%;
+}
+
+.ul-content-right-programs>li{
+    text-decoration:none;
+    list-style-type: none;
+}
+.content-right {
+    margin-right: 20%;
+    margin-left: 20px;
+}
+
+/*//////////// content 2 ////////*/
+
+.submenu2{
+    list-style:none;
+    position:absolute;/*зробити елемент привидом*/
+    display: none;/*зникне . приховається*/
+background: white;
+}
+.menu1>li:hover .submenu2{
+    display: block;
+   left:250px;
+}
+
+.content-all-info2{
+    display: flex;
+    justify-content: center;
+}
+
+.foto-left2 img{
+    width: 173px;
+    height: 213px;
+    border-radius:50%;
+}
+
+.ul-content-right-programs2>li{
+    text-decoration:none;
+    list-style-type: none;
+}
+.content-right2 {
+    margin-right: 20%;
+    margin-left: 20px;
+}

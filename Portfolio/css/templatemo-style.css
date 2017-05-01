@@ -1,7 +1,4 @@
-/*
-ROMNA Template
-http://www.templatemo.com/free-website-templates/
-*/
+
 
 body {
 	background: #f8f8f8;
@@ -120,7 +117,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* home section */
 #home {
-	background: url('../images/hands-and-photo-camera-1924.jpg') 100% 0 repeat-y fixed;
+	background: url('../images/b2.jpg') 100% 0 repeat-y fixed;
 	color: #ffffff;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -133,6 +130,15 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	height: 100vh;
 	text-align: center;
 }
+.main-title-portfolio{
+	max-height:220px;
+	max-width:420px;
+}
+/*@media screen and (max-width: 510px){
+	.main-title-portfolio{
+		width:100%;
+	}
+}*/
 #home h2 {
 	letter-spacing: 2px;
 }
@@ -140,18 +146,30 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	background: #f7f4f3;
 	border-radius: 4px;
 	border: none;
-	color: black;
+	color: #8f8f8f;
 	font-size: 16px;
 	padding: 20px 40px;
 	margin-top: 60px;
 	font-weight: 100;
+	transition: 1s;
+
 }
 #home .btn:hover {
-	background: black;
-	color: #f7f4f3;
+
+	background: #f1f1f1;
+	color: #0b0707;
 	font-weight: 100;
-	transition: all 0.4s ease-in-out;
+	transition: 1s;
+	-webkit-transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	-o-transform: scale(1.02);
 }
+
+img.small-image-logo {
+	width: 100px;
+}
+
+
 /* navigation section */
 .navbar-default {
 	background: #fff;
@@ -397,7 +415,7 @@ footer p {
 	line-height: 20px;
 }
 footer .copyright a {
-	color: #eb5424;
+	color: #ff5b26;
 }
 .social-icon {
 	padding: 0;
@@ -466,6 +484,7 @@ footer .copyright a {
 	margin-top: 5%;
 }
 
+
 #work .fa.fa-video-camera{
 	color: #303030;
 
@@ -475,4 +494,36 @@ footer .copyright a {
 	background-color: #303030;
 	border-radius: 50%;
 	color: #ffffff;
+}
+
+/*
+=========================== !!!!!!!!!!!++++++++++++++*/
+
+/*a:hover {
+
+	display: block;
+	width: 100%;
+	color: #f9f9f9!important;
+	font-family: "raleway-regular", arial;
+	text-decoration: none!important;
+}*/
+
+
+
+.work:hover{
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	transition: 3s;
+	z-index: 999;
+}
+
+.work{
+	transition: 5s;
+}
+header{
+	z-index:1;
+}
+body{
+	z-index: 0;
 }
